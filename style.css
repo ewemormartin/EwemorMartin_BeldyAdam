@@ -52,7 +52,8 @@ nav{
 footer{
     color: white;
     grid-area: f;
-    background-color: darkgreen;
+    padding-top: 5px;
+    color: darkslategray;
 }
 
 table{
