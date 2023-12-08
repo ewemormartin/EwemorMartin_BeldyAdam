@@ -16,11 +16,6 @@ ul li a{
 
 ul li{
     display:inline;
-    background-color: rgb(36, 82, 40);
-    padding: 15px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 10px;
 }
 
 main{
@@ -50,8 +45,6 @@ nav{
 }
 footer{
     grid-area: f;
-    padding-top: 5px;
-    color: darkslategray;
 }
 
 table{
