@@ -9,6 +9,15 @@ body{
     background-image: url(kepek/84111752.0.jpg);
 }
 
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    display:inline;
+}
+
 main{
     width: 90%;
     margin: auto;
@@ -79,3 +88,14 @@ td:nth-child(2), th:nth-child(2){
 .kep img{
     width: 70px;
 }
+@media screen and (max-width: 600px) {
+    
+    main{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+  }
