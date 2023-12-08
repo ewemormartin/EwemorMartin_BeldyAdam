@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+    color: black;
 }
 
 body{
@@ -41,7 +43,6 @@ table{
     border-collapse: collapse;
     margin: 0 auto 20px auto;
     background-color: rgb(104, 128, 104);
-    color: rgb(57, 77, 57);
 }
 
 tr{
@@ -53,14 +54,12 @@ th{
     height: 50px;
     vertical-align: middle;
     text-align: middle;
-    
     background-color: rgb(179, 202, 192);
 }
 
 td{
     text-align: middle;
     padding-right: 5px;
-    color: rgb(95, 95, 95);
 }
 
 tr:nth-child(odd){
@@ -68,7 +67,6 @@ tr:nth-child(odd){
 }
 
 td:nth-child(1), td:nth-child(2){
-    color: rgb(78, 78, 78);
     font-weight: bold;
     padding-left: 20px;
     text-align: left;
