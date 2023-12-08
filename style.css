@@ -51,7 +51,6 @@ nav{
 footer{
     grid-area: f;
     padding-top: 5px;
-    font-family: Optima, sans-serif;
     color: darkslategray;
 }
 
