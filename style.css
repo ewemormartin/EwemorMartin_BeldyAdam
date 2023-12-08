@@ -12,10 +12,15 @@ body{
 ul li a{
     color: white;
     text-decoration: none;
+    padding: 15px;
 }
 
 ul li{
     display:inline;
+    background-color: darkgreen;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 main{
@@ -43,8 +48,11 @@ aside{
 nav{
     grid-area: n;
 }
+
 footer{
+    color: white;
     grid-area: f;
+    background-color: darkgreen;
 }
 
 table{
@@ -56,18 +64,15 @@ table{
 
 tr{
     border-bottom: 1px solid grey;
-    padding: 3px;
+    padding: 5px;
 }
 
 th{
     height: 50px;
-    vertical-align: middle;
-    text-align: middle;
     background-color: rgb(179, 202, 192);
 }
 
 td{
-    text-align: middle;
     padding-right: 5px;
 }
 
@@ -88,3 +93,14 @@ td:nth-child(2), th:nth-child(2){
 .kep img{
     width: 70px;
 }
+
+@media screen and (max-width: 600px) {
+    main{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+  }
