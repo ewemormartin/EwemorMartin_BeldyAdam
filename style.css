@@ -111,6 +111,7 @@ border-right: 1px solid grey;
     grid-template-areas: 
         "h"
         "n"
+        "n"
         "a"
         "f";
     }
