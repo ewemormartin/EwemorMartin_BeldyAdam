@@ -79,3 +79,19 @@ td:nth-child(2), th:nth-child(2){
 .kep img{
     width: 70px;
 }
+footer{
+    padding-top: 5px;
+    font-family: Optima, sans-serif;
+    color: darkslategray;
+}
+li{
+    background-color: rgb(36, 82, 40);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+ul{
+    padding: 0 20px 0 20px;
+    list-style: none;
+}
