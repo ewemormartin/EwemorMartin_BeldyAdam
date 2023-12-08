@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "h h"
+    "a n"
+    "f f"
+}
+
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+
+aside{
+    grid-area: as;
+}
+
+nav{
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto 20px auto;
+    background-color: rgb(104, 128, 104);
+    color: rgb(57, 77, 57);
+}
+
+tr{
+    border-bottom: 1px solid grey;
+    padding: 3px;
+}
+
+th{
+    height: 50px;
+    vertical-align: middle;
+    text-align: middle;
+    
+    background-color: rgb(179, 202, 192);
+}
+
+td{
+    text-align: middle;
+    padding-right: 5px;
+    color: rgb(57, 77, 57);
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+td:nth-child(1), td:nth-child(2){
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: left;
+}
+
+td:nth-child(2), th:nth-child(2){
+    border-right: 1px solid grey;
+}
+
+.kep img{
+    width: 15px;
+}
