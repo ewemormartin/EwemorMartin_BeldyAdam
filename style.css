@@ -101,6 +101,7 @@ td:nth-child(2), th:nth-child(2){
     grid-template-areas: 
         "h"
         "n"
+        "n"
         "a"
         "f";
     }
