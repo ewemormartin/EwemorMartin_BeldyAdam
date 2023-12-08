@@ -50,8 +50,6 @@ nav{
 }
 footer{
     grid-area: f;
-    padding-top: 5px;
-    color: darkslategray;
 }
 
 table{
