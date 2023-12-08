@@ -53,7 +53,7 @@ footer{
     color: white;
     grid-area: f;
     padding-top: 5px;
-    color: darkslategray;
+    background-color: darkgreen;
 }
 
 table{
